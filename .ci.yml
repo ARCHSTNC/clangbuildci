@@ -21,5 +21,7 @@ steps:
        from_secret: GH_PUSH_REPO_URL
      CRED:
        from_secret: CRED
+     REMOTE:
+       from_secret: REMOTE
    commands:
      - bash llvm-tc_build.sh
